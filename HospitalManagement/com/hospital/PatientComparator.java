@@ -4,7 +4,6 @@ import java.util.Comparator;
 
 public class PatientComparator implements Comparator<Patient>{
 
-    @Override
     public int compare(Patient p1, Patient p2) {
         return Integer.compare(getPriority(p1.getCondition()), getPriority(p2.getCondition()));
     }
@@ -23,3 +22,4 @@ public class PatientComparator implements Comparator<Patient>{
     }
 
 }
+
