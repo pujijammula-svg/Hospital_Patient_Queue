@@ -15,8 +15,8 @@ public class Patient {
     public int getAge() { return age; }
     public String getCondition() { return condition; }
 
-    @Override
     public String toString() {
         return "Patient{name='" + name + "', age=" + age + ", condition='" + condition + "'}";
     }
 }
+
